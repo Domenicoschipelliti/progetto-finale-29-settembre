@@ -28,14 +28,14 @@ header{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-left: 540px;
+    
     margin-top: 13px;
     height:  59px;
 }
 
 .bottone1{
     background-color: black;
-    font-size: 17px;
+    font-size: 15px;
     border-radius: 42px;
     color: white;
 }
@@ -57,7 +57,7 @@ div ul li{
 }
 
 .M{
-    margin-top: 20px;
+   
     margin-left: -359px;
    
     height: 100%;
@@ -74,7 +74,9 @@ hr{
 .curiosa{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
+
 
 
 .treding{
@@ -86,4 +88,28 @@ hr{
 .container{
     display: flex;
     height: 783px;
+}
+
+#paragrafo{
+    display: flex;
+    margin: 0px;
+   align-self: baseline;
+}
+
+#titolo2{
+    display: flex;
+    font-size: 100px;
+    margin-bottom: -58px;
+}
+
+#bottone{
+    position: relative;
+    left: -429px;
+    border-radius: 200px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
 }
